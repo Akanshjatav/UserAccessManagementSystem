@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseManager {
-    private static final String URL = "jdbc:postgresql://localhost:5432/yourdb"; // Update with your database URL
-    private static final String USER = "yourusername"; // Update with your database username
-    private static final String PASSWORD = "yourpassword"; // Update with your database password
+    private static final String URL = "jdbc:postgresql://localhost:5432/user_management"; // Update with your database URL
+    private static final String USER = "postgres"; // Update with your database username
+    private static final String PASSWORD = "password"; // Update with your database password
 
     // Method to establish a connection to the database
     public Connection getConnection() throws SQLException {
