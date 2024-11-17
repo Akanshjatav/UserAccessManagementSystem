@@ -1,0 +1,763 @@
+body.login {
+    font-family: Teko, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: auto;
+}
+
+.login-main {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+}
+
+.login-container {
+    position: relative;
+    top: 50%;
+    background: linear-gradient(130deg, #010836, #000729); /* Dark gradient for the container */
+    padding: 30px; /* Padding inside the form */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 46px 20px rgba(38, 0, 80, 0.7);
+    width: 400px; /* Fixed width for the form */
+    font-size: 24px;
+}
+
+/* Header inside login form */
+.login-container h2 {
+    margin: 0 0 20px; /* Margin for the heading */
+    text-align: center; /* Center the heading */
+    font-weight: bold; /* Make the header bold */
+    color: #fff; /* White color for the header */
+    /* Larger font size for visibility */
+}
+
+/* Styling for input fields */
+.login-container div {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.login-container label {
+    display: block; /* Block display for labels */
+    margin-bottom: 8px; /* Space below labels */
+    color: #ddd; /* Light gray color for labels */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 95%; /* Full width inputs */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    /* Larger font size for better readability */
+}
+
+/* Styling for the submit button */
+.login-container input[type="submit"] {
+    background: #4CAF50; /* Green gradient button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width button */
+    margin-bottom: 15px; /* Margin below the button */
+}
+
+/* Button hover effect */
+.login-container input[type="submit"]:hover {
+    background: black; /* Darker green gradient on hover */
+}
+
+/* Styling for the links */
+.login-container a {
+    color: #1b7505; /* Tomato red link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-main {
+    padding: 10px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    background: #fff;
+
+}
+
+.nav-main-h1 {
+    background: white;
+    color: #010836;
+    margin: 0; /* Remove default margin */
+    font-size: 50px; /* Font size for the title */
+    font-weight: bold; /* Make the header bold */
+    text-transform: uppercase; /* Uppercase text for a bold effect */
+}
+
+/*signup*/
+.register {
+    font-family: Teko, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: auto;
+}
+
+.register-nav-main {
+    padding: 10px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    background: #fff;
+}
+
+.register-nav-main h1 {
+    background: white;
+    color: #010836;
+    margin: 0; /* Remove default margin */
+    font-size: 50px; /* Font size for the title */
+    font-weight: bold; /* Make the header bold */
+    text-transform: uppercase; /* Uppercase text for a bold effect */
+}
+
+
+.register-main {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+
+}
+
+.register-container {
+    position: relative;
+    top: 50%;
+    background: linear-gradient(130deg, #010836, #000729); /* Dark gradient for the container */
+    padding: 30px; /* Padding inside the form */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 46px 20px rgba(38, 0, 80, 0.7);
+    width: 400px; /* Fixed width for the form */
+}
+
+.register-container h2 {
+    margin: 0 0 20px; /* Margin for the heading */
+    text-align: center; /* Center the heading */
+    font-weight: bold; /* Make the header bold */
+    color: #fff; /* White color for the header */
+    font-size: 24px; /* Larger font size for visibility */
+}
+
+.register-container div {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.register-container label {
+    display: block; /* Block display for labels */
+    margin-bottom: 8px; /* Space below labels */
+    color: #ddd; /* Light gray color for labels */
+}
+
+.register-container-text input[type="text"], .register-container-pw input[type="password"] {
+    width: 95%; /* Full width inputs */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    /*
+}
+
+.register-container-submit input[type="submit"] {
+background:#4CAF50; /* Green gradient button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width button */
+    margin-bottom: 15px;
+    /* Margi
+
+
+}
+
+.register-container-submit input[type="submit"]:hover {
+background-color: black;        /* Darker green on hover */
+}
+
+.register-container a {
+    color: #1b7505; /* Tomato red link color */
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/*pending Requests*/
+.pend {
+    font-family: Teko;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+/* Navigation Bar */
+.pend-nav-main {
+    background: linear-gradient(130deg, #010836, #000729); /* Green gradient background */
+    color: white; /* White text */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 46px 20px rgba(38, 0, 80, 0.7);
+
+}
+
+.pend-nav-main h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pend-nav-main button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pend-nav-main button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Main Manager Section */
+.pend-manager-main {
+    margin-top: 80px; /* Give some space below the fixed navbar */
+    padding: 20px;
+}
+
+/* Form Container */
+.pend-form-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Manager Form */
+.pend-manager-form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Div styling inside the form */
+.pend-manager-form div {
+    margin-bottom: 20px;
+}
+
+/* Manager List and Table */
+.manager-container-list {
+    display: flex;
+    justify-content: center;
+}
+
+.manager-list {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.pend-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.pend-th, .pend-td {
+    padding: 10px 70px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.pend-th {
+    background-color: #f2f2f2;
+}
+
+.pend-tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Button Styling */
+.pend-submit {
+    background-color: #4CAF50; /* Green gradient for buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pend-submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.pend-button {
+    background-color: #007BFF; /* Blue background for regular buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pend-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/*Request page*/
+
+.req {
+    font-family: Teko;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+.req-nav-main {
+    background: linear-gradient(130deg, #010836, #000729); /* Green gradient background */
+    color: white; /* White text */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0px 0px 46px 20px rgba(0, 184, 1, 0.7);
+
+
+}
+
+
+.req-nav-left {
+    flex: 1;
+    text-align: left;
+}
+
+.req-nav-right {
+    flex: 0;
+    text-align: right;
+}
+
+
+.req-nav-main h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the title */
+    font-weight: bold; /* Make the header bold */
+    text-transform: uppercase; /* Uppercase text for a bold effect */
+}
+
+.req-nav-main button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.req-nav-main button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* Main Employee Section */
+/* Main Employee Section */
+.req-employee-main {
+    margin-top: 80px; /* Give some space below the fixed navbar */
+    padding: 20px;
+    text-align: left; /* Center the welcome message */
+}
+
+/* Heading Styling */
+.req-employee-main h1 {
+    font-size: 30px; /* Larger font size for the heading */
+    color: #333; /* Ensure text is visible */
+    margin-top: 20px; /* Add some margin on top */
+    font-weight: bold; /* Make the font bold */
+}
+
+
+/* Container styling for the form */
+.req-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f4f4f9;
+}
+
+/* Styling for the request form */
+.req-employee-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Label styling */
+.req-employee-form label {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Textarea styling */
+.req-employee-form textarea {
+    resize: vertical;
+    height: 100px;
+    width: 100%;
+}
+
+/* Radio button styling */
+.req-employee-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Inline display for radio options */
+.req-employee-form div input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+/* Styling for the submit and back buttons */
+.req-employee-form .submit,
+.req-employee-form button {
+    background-color: #4CAF50; /* Green gradient for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.req-employee-form .submit:hover,
+.req-employee-form button:hover {
+    background-color: #45a049;
+}
+
+
+.req-employee-form button {
+    background-color: #ccc;
+    color: #333;
+    margin-left: 10px;
+}
+
+.req-employee-form button:hover {
+    background-color: #bbb;
+}
+
+
+.req-employee-container-list {
+    display: flex;
+    justify-content: center;
+}
+
+.req-employee-list {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.req-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.req-th, .req-td {
+    padding: 10px 70px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.req-th {
+    background-color: #f2f2f2;
+}
+
+.req-tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.req-submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.req-submit:hover {
+    background-color: #45a049;
+}
+
+
+.req-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.req-button:hover {
+    background-color: #0056b3;
+}
+
+
+/*create software*/
+
+.sof {
+    font-family: Teko;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.soft-h1, .soft-h2 {
+    padding: 10px;
+    color: #010836;
+}
+
+.soft-nav-main {
+    background: linear-gradient(130deg, #010836, #000729);
+    color: white; /* White text */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 46px 20px rgba(255, 75, 0, 0.75);
+
+
+}
+
+soft-nav-main h1 {
+    margin: 0;
+    color: white;
+}
+
+.soft-submit, .soft-button {
+    padding: 8px 16px;
+    background-color: #45a049;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.soft-button:hover {
+    background-color: #367a36;
+}
+
+.soft-admin-main {
+    margin: 20px;
+}
+
+.soft-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.soft-admin-create {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.soft-admin-create:hover {
+    background-color: #45a049;
+}
+
+
+/* Form Styles */
+.soft-admin-form {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*min-width: 600px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.soft-admin-form div {
+    margin-bottom: 15px;
+}
+
+.soft-admin-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.soft-admin-form input[type="text"],
+.soft-admin-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.soft-admin-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.soft-admin-form div.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.soft-admin-form input[type="radio"] {
+    margin-right: 5px;
+/
+}
+
+.soft-admin-form label[for^="level"] {
+    display: inline-block;
+    margin: 0;
+}
+
+.soft-admin-form input[type="submit"],
+.soft-admin-form button {
+    margin-top: 10px;
+}
+
+/* Table Styles */
+.soft-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.soft-table, .soft-th, .soft-td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.soft-th, .soft-td {
+    padding: 12px;
+}
+
+.soft-th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.soft-td {
+    background-color: #f9f9f9;
+}
+
+.soft-tr:nth-child(even) .soft-td {
+    background-color: #f2f2f2;
+}
+
+.soft-tr:hover .soft-td {
+    background-color: #ddd;
+}
+
+/*index*/
+
+.ind {
+    font-family: Teko;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.ind-container {
+    max-width: 800px;
+    margin: 50px 0;
+    padding: 20px;
+    background: linear-gradient(130deg, #010836, #000729);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    transform: translateY(-20px);
+}
+
+/* Header Styles */
+.ind-header h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ind-header p {
+    color: #ddd;
+    font-weight: bold;
+}
+
+
+.ind-buttons {
+    margin-top: 20px;
+}
+
+
+.ind-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ind-btn:hover {
+    background: linear-gradient(135deg, #3e8e41, #367a36);
+    transform: scale(1.05);
+}
