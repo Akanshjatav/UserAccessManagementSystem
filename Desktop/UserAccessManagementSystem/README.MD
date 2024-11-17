@@ -16,12 +16,7 @@ The **User Access Management System (UAMS)** is a web-based solution to manage s
 2. **Access Levels**:
     - `Read`, `Write`, `Admin` permissions can be assigned to software.
 
-3. **Transaction Management**:
-    - **Abort**: Cancel uncommitted transactions.
-    - **Rollback**: Revert changes to the last commit point.
-    - **Commit**: Permanently save changes to the database.
-
-4. **Data Persistence**:
+3. **Data Persistence**:
     - All changes are stored in a PostgreSQL database.
 
 ---
